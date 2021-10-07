@@ -40,7 +40,7 @@
 
 4. Comfort Level — How close are we to hitting our sprint goals?
   
-- 10%. I have only been able to set up and done the bare minimum. No where near complete.
+- 10%. I have only been able to set up and done the bare minimum. No where near complete. 
   
 ## Work Log
 
