@@ -21,8 +21,9 @@
 
 - N/A
   
-1. Comfort Level — How close are we to hitting our sprint goals?
+4. Comfort Level — How close are we to hitting our sprint goals?
 
+- 100%. Finally finish everything after a lot of hours learning CSS + applying what I learned in this lab.
 
 ### Thursday (October 7th, 2021)
 1. What have you completed yesterday?
@@ -72,17 +73,59 @@
 
 + [x] Class selector (.class)
 + [x] ID Selector (#id)
-+ [ ] Universal Selector (*)
++ [x] Universal Selector (*)
 + [x] Element Selector (element) 
-+ [ ] Attribute Selector (e.g. [attribute=foo])
++ [x] Attribute Selector (e.g. [attribute=foo])
 + [x] Pseudo-class Selector (e.g. p:hover)
-+ [ ] Selector List (element, element)     
-+ [ ] Combinators (you must use one of each)
-  + [ ] Descendant Combinator (element element)
-  + [ ] Child Combinator (element > element)
-  + [ ] General sibling combinator (element ~ element)
-  + [ ] Adjacent sibling combinator (element + element)
-  + [ ] Combining Two Selectors (element.class)
++ [x] Selector List (element, element)     
++ [x] Combinators (you must use one of each)
+  + [x] Descendant Combinator (element element)
+    ```css
+    ol li {
+      font-size: large;
+    }
+    ```
+
+  + [x] Child Combinator (element > element)
+    ```css
+    .grid-container > div {
+      font-family: 'Lora', serif;
+      background-color: rgb(255, 204, 222);    /* sets opacity of black color */
+      text-align: center;
+      padding: 15px;
+      color: navy;
+      border: solid navy;
+      border-width: 0.5mm;
+      border-radius: 15px;
+    }
+    ```
+
+  + [x] General sibling combinator (element ~ element)
+    ```css
+    p ~ div{
+      font-size: 18px;
+    } 
+    ```
+
+  + [x] Adjacent sibling combinator (element + element)
+    ```css
+    h1 + h2 {
+      font-size: 3em;
+      margin: 0px 200px 0px 470px;
+    }
+    ```
+
+  + [x] Combining Two Selectors (element.class)
+    ```css
+    div.text{
+      font-family: 'Lora', serif;
+      color: black;
+      font-weight: bold;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+    }
+    ```
 
 ### Thursday (October 7th, 2021)
 + [x] Comment
