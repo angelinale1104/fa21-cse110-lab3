@@ -79,10 +79,11 @@ img{
 }
 
 /* Table of contents */
-#header{
+header{
     font-size: 3ch;
     text-align: center;
     font-weight: bold;
+    margin:0px;
 
 }
 
