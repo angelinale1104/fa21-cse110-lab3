@@ -7,6 +7,7 @@ body {
   
 
 /* Company name */
+/* This is an example of element selector */
 h1 {
     min-width: auto;
     /* Change the border design of h1 */
@@ -38,15 +39,17 @@ h1 {
 }
 
 /* Title of website: "Meeting Minutes" */
-h2 {
+/* This is an  example of adjacent sibling combinator */
+/* Change the size and margin of h2 right after h1 */
+h1 + h2 {
     /* Changing the color and margin of the heading h2 */
     font-size: 3em;
-    color: navy;
     margin: 0px 200px 0px 470px;
 }
 
 /* Change font size and color of survey questions */
-h3{
+/* This is an example of universal selector */
+h3 * {
     font-weight: bold;
     color: hsl(39, 100%, 50%);
     text-shadow: 0 0 3px #0a0a0a, 0 0 8px #0000FF;
@@ -54,7 +57,6 @@ h3{
 
 /* Opening, Absent members, What we discussed, Summary, TODO */
 h4{
-    font-family: 'Lora', serif;
     font-size: 25px;
     color: navy;
     margin:auto;
@@ -97,6 +99,7 @@ header{
     color: navy;
 }
 
+/* This is an example of id selector */
 #Summary{
     padding: 12px 0px;
 }
@@ -113,7 +116,6 @@ header{
 #paragraph{
     text-align: justify;
 }
-
 
 /* Change the design of the title of the survey form */
 #form-title{
@@ -142,6 +144,7 @@ header{
     padding: 10px;
 }
 
+/* This is an example of pseudo-class selectors */
 a:link{
     color: rgb(4, 4, 255);
     font-size: large;
@@ -159,6 +162,7 @@ a:active{
     color: purple;
 }
 
+/* This is an example of both flexbox and class selector */
 .flexbox {
     display: flex;
     align-items: center;
@@ -169,7 +173,9 @@ a:active{
     padding-bottom: 10px;
 }
 
-.text{
+/* This is an example of combining 2 selectors (element.class) */
+/* This is used to change the format of the text under 3 images of K-Pop groups */
+div.text{
     font-family: 'Lora', serif;
     color: black;
     font-weight: bold;
@@ -178,6 +184,7 @@ a:active{
     text-align: center;
 }
 
+/* This is an example of grid */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 250px [col-start]);
@@ -188,12 +195,13 @@ a:active{
     width:auto;
 }
 
+/* This is an example of child combinator */
+/* I am changing the design of all the items (i.e songs) in a grid */
 .grid-container > div {
     font-family: 'Lora', serif;
     background-color: rgb(255, 204, 222);    /* sets opacity of black color */
     text-align: center;
     padding: 15px;
-    font-size: 15px;
     color: navy;
     border: solid navy;
     border-width: 0.5mm;
@@ -207,8 +215,72 @@ a:active{
     grid-column-end: 1;
 }
 
+/* This is an example of media query */
 @media only screen and (max-width: 500px) {
     body {
       background-color: black;
     }
+}
+
+/* Size of link for Black Suit - Super Junior */
+/* This is an example of attributes selector */
+a[href="https://www.youtube.com/watch?v=MvqB6JsRbsc"]{
+    font-size: 15px;
+}
+
+/* Size of link for Ping Pong - HyunA & DAWN */
+a[href="https://www.youtube.com/watch?v=0aaeUI1ucfQ"]{
+    font-size: 15px;
+}
+
+/* Size of link for You Calling My Name - GOT7 */
+a[href="https://www.youtube.com/watch?v=xQI9oZEY-B0"]{
+    font-size: 15px;
+}
+
+/* Size of link for Gee - Girls' Generation */
+a[href="https://www.youtube.com/watch?v=U7mPqycQ0tQ"]{
+    font-size: 15px;
+}
+
+/* Size of link for Queendom - Red Velvet */
+a[href="https://www.youtube.com/watch?v=c9RzZpV460k"]{
+    font-size: 15px;
+}
+
+/* Size of link for Likey - Twice */
+a[href="https://www.youtube.com/watch?v=V2hlQkVJZhE"]{
+    font-size: 15px;
+}
+
+/* Size of link for DIngga - Mamamoo */
+a[href="https://www.youtube.com/watch?v=LzmdGtzby2s"]{
+    font-size: 15px;
+}
+
+/* Size of link for Daisy - Pentagon */
+a[href="https://www.youtube.com/watch?v=W7ZIz4w9Edo"]{
+    font-size: 15px;
+}
+
+/* The font of the section title in the meeting minutes and the thank you statement 
+will be the same. This is an example of selector list */
+h4, #thank-you{
+    font-family: 'Lora', serif;
+}
+
+/* This is an example of descendant combinator */
+/* This is used to change the size of each list item in the "What we discussed" section */
+ol li {
+    font-size: large;
+}
+
+/* This is an example of general sibling selector */
+/* This is used to increase the size of the multiple choice answers in the survey form */
+p ~ div{
+    font-size: 18px;
+}
+
+ul.drop_down_options{
+
 }
