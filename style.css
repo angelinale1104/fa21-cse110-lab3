@@ -1,0 +1,207 @@
+/* Change background color of webpage */
+body {
+    background-color: rgb(255, 204, 222);
+    width: 100vw;
+    height: 100vh;
+}
+  
+/* Company name */
+h1 {
+    min-width: auto;
+    /* Change the border design of h1 */
+    border: 0.3rem solid;
+    border-style: groove;
+    border-color: navy;
+    border-width: 0.5cm;
+    border-radius: 30px;
+    background-color: lightblue;
+
+    /* Add padding for the text inside the border */
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+
+    /* Change the font size, color and shadow of h1 */ 
+    font-size: 5rem;
+    color: hsl(39, 100%, 50%);
+    text-shadow: 0 0 3px #0a0a0a, 0 0 8px #0000FF;
+
+    /* Change the margin of h1 */
+    margin-left: 200px;
+    margin-right: 160px;
+    margin-bottom: 10px;
+
+    /* Static position */
+    position: relative;
+}
+
+/* Title of website: "Meeting Minutes" */
+h2 {
+    /* Changing the color and margin of the heading h2 */
+    font-size: 3em;
+    color: navy;
+    margin: 0px 200px 0px 470px;
+}
+
+/* Change font size and color of survey questions */
+h3{
+    font-weight: bold;
+    color: hsl(39, 100%, 50%);
+    text-shadow: 0 0 3px #0a0a0a, 0 0 8px #0000FF;
+}
+
+/* Opening, Absent members, What we discussed, Summary, TODO */
+h4{
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    color: navy;
+    margin:auto;
+    text-decoration: navy underline;
+}
+
+h6{
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Table of contents */
+header{
+    font-size: 3ch;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* Bullet points in table of content */
+nav{
+    position: static;
+    margin-left: 520px;
+}
+
+/* Change the border design of all images in the website */
+img{
+    border: solid navy;
+    border-width: 0.5mm;
+}
+
+/* Change the alignment of the date */
+#date{
+    text-align: center;
+}
+
+#Summary{
+    padding: 12px 0px;
+}
+
+#display_example1{
+    text-align: justify;
+    display: inline;
+}
+
+#display_example2{
+    display: block;
+}
+
+#paragraph{
+    text-align: justify;
+}
+
+
+/* Change the design of the title of the survey form */
+#form-title{
+    color: purple;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Make the form have a different background color to differentiate from meeting minutes */
+#form{
+    background-color: #d6bfdf;
+}
+
+#textarea{
+    text-align: center;
+}
+
+/* Change the design of the thank you statement at the end of form */
+#thank-you{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: hsl(39, 100%, 50%);
+    text-shadow: 0 0 3px #0a0a0a, 0 0 8px #0000FF;
+    padding: 10px;
+}
+
+a:link{
+    color: rgb(4, 4, 255);
+    font-size: large;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: purple;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightskyblue;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text{
+    font-family: 'Lora', serif;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 250px [col-start]);
+    grid-gap: 20px;      /* center dividing lines */
+    background-color: lightskyblue;;
+    padding: 20px;       /* border/outer lines */
+    justify-content: space-evenly;
+    width:auto;
+}
+
+.grid-container > div {
+    font-family: 'Lora', serif;
+    background-color: rgb(255, 204, 222);    /* sets opacity of black color */
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: navy;
+    border: solid navy;
+    border-width: 0.5mm;
+    border-radius: 15px;
+}
+
+.song1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: black;
+    }
+}
