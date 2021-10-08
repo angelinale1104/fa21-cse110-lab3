@@ -5,6 +5,7 @@ body {
     height: 100vh;
 }
   
+
 /* Company name */
 h1 {
     min-width: auto;
@@ -65,14 +66,6 @@ h6{
     font-size: x-large;
 }
 
-/* Table of contents */
-header{
-    font-size: 3ch;
-    text-align: center;
-    font-weight: bold;
-
-}
-
 /* Bullet points in table of content */
 nav{
     position: static;
@@ -85,9 +78,22 @@ img{
     border-width: 0.5mm;
 }
 
-/* Change the alignment of the date */
-#date{
+/* Table of contents */
+#header{
+    font-size: 3ch;
     text-align: center;
+    font-weight: bold;
+
+}
+
+/* Change the alignment of the date */
+#Date{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: navy;
 }
 
 #Summary{
