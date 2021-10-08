@@ -68,6 +68,23 @@
   
 ## Work Log
 
+### Friday (October 8th, 2021)
+
++ [x] Class selector (.class)
++ [x] ID Selector (#id)
++ [ ] Universal Selector (*)
++ [x] Element Selector (element) 
++ [ ] Attribute Selector (e.g. [attribute=foo])
++ [x] Pseudo-class Selector (e.g. p:hover)
++ [ ] Selector List (element, element)     
++ [ ] Combinators (you must use one of each)
+  + [ ] Descendant Combinator (element element)
+  + [ ] Child Combinator (element > element)
+  + [ ] General sibling combinator (element ~ element)
+  + [ ] Adjacent sibling combinator (element + element)
+  + [ ] Combining Two Selectors (element.class)
+
+### Thursday (October 7th, 2021)
 + [x] Comment
   + [x] Color
     + [x] rgb
