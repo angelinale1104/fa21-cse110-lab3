@@ -3,6 +3,29 @@
 
 ### Friday (October 8th, 2021)
 1. What have you completed yesterday?
+   
+- Add CSS to Lab 2 Meeting Minutes
+- Create some new issues and resolve them.
+
+2. What will I do today?
+
+- Ask tutor about these things:
+  + Not sure how to go about the Pull Request section in the lab. Have already created the issue template and a new branch but unsure how to add new issues in this new branch, link and merge pull request. Please help me with 1 demo.
+  + What is the difference between static position vs relative position?
+  + How do I check if min-width makes any difference in my webpage?
+- Adding new issues and merge pull requests for all of them
+- Complete "CSS selectors" of the lab
+- Double check the final repo and submit
+
+3. Where do you get stuck?
+
+- N/A
+  
+1. Comfort Level — How close are we to hitting our sprint goals?
+
+
+### Thursday (October 7th, 2021)
+1. What have you completed yesterday?
   
 - Continue creating issues for different tasks in lab 3.
 - Learn how to use CSS
@@ -12,16 +35,16 @@
 - Add CSS to Lab 2 Meeting Minutes
 - Create some new issues and resolve them.
  
-1. Where do you get stuck?
+3. Where do you get stuck?
 
 - I am not stuck per se. I am just confused about different positions in CSS (static vs relative). 
 - Also, how do I check if min-width makes any difference in my webpage?
 
 4. Comfort Level — How close are we to hitting our sprint goals?
 
-- 65%. I am done with part 1 of lab 3. Just have to complete part 2 and submit.
+- 65%. I am done with "General CSS topics" of lab 3. Just have to complete "CSS selectors" and submit.
 
-### Thursday (October 7th, 2021)
+### Wednesday (October 6th, 2021)
 1. What have you completed yesterday?
 
 - Get started on lab 3
